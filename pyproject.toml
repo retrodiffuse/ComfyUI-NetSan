@@ -1,0 +1,18 @@
+[project]
+name = "netsan"
+description = "Network Sanitary check: monitor and block outbound connections from ComfyUI custom nodes so you can see which extension is phoning home."
+version = "1.0.0"
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = ["Operating System :: OS Independent"]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/retrodiffuse/ComfyUI-NetSan"
+"Bug Tracker" = "https://github.com/retrodiffuse/ComfyUI-NetSan/issues"
+
+# Comfy Registry (https://registry.comfy.org). Bump version above to publish a new release.
+[tool.comfy]
+PublisherId = "retr0gr4d3"
+DisplayName = "NetSan"
